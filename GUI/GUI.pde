@@ -20,6 +20,7 @@ void setup(){
   size(1280,720);
   frameRate(60);
   smooth(8);
+  initializeSerial();
 }
 
 void draw(){
